@@ -1,0 +1,36 @@
+{
+    "name": "DMP",
+    "docs": "https://github.com/UniversalDevicesInc/udi-example4-poly/README.md",
+    "type": "python3",
+    "executable": "dmp.py",
+    "install": "install.sh",
+    "description": "Node server to interface to DMP XR series control panels.",
+    "notice": "",
+    "shortPoll": "60",
+    "longPoll": "600",
+	"logLevel": "WARNING",
+    "profile_version": "1.1.01",
+	"customParams": {
+		"IP Address": "127.0.0.1",
+		"CmdPort": 8011,
+		"StatusPort": 8001,
+		"Account": " 1119"
+	},
+    "credits": [
+    	{
+    		"title": "DMP Node Server for ISY/Polyglot",
+    		"author": "Ron Morasse",
+    		"version": "1.0.5",
+    		"date": "January 14, 2024",
+    		"source": "https://github.com/UniversalDevicesInc/udi-example4-poly",
+			"license": "https://github.com/UniversalDevicesInc/udi-example4-poly/LICENSE"
+		}
+	],
+	"store" : {
+		"developer": "ron@SouthShoreAlarms.com",
+		"price": 0.00,
+		"recurring": 0,
+		"recurring_interval": "month",
+		"recurring_period": 0
+	}
+}
